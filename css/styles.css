@@ -1,0 +1,30 @@
+@import url(font-family:"Open Sans", sans-serif;);
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/uesr-components.css";
+@import "components/alt-screen-header.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/chat.css";
+@import "components/no-mobile.css";
+
+/* Screen */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+
+body {
+  color: #2e353e;
+  font-family: "open sans", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
